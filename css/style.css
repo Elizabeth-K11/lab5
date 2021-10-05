@@ -1,0 +1,252 @@
+.html, body {
+margin: 0;
+padding: 0;
+font-family: 'Oswald', sans-serif;
+}
+
+.intro{
+width: 100%;
+height: 600px;
+background:
+url("../img/fon1.jpg") center no-repeat;
+-webkit-background-size:cover ;
+background-size:cover;
+display: flex;
+}
+
+.intro_text{
+font-size: 90px;
+font-family: 'Oswald', sans-serif;
+color: rgb(0, 0, 0);
+margin-left: 5%;
+font-weight: 500;
+}
+
+.main_blok{
+display: flex;
+width: 100%;
+flex-direction: column;
+}
+
+.two_bloks{
+display: flex;
+width: 100%;
+}
+
+.info{
+display: flex;
+width: 50%;
+background-color: black;
+align-items: center;
+}
+
+.info:hover{
+    display: flex;
+    width: 50%;
+    background-color: rgb(26, 26, 26);
+    align-items: center;
+    }
+
+.info_gray{
+display: flex;
+width: 50%;
+background-color: rgb(44, 44, 44);
+align-items: center;
+} 
+
+.info_gray:hover{
+    display: flex;
+    width: 50%;
+    background-color: rgb(75, 75, 75);
+    align-items: center;
+    } 
+
+.text{
+width:50%;
+margin-left: 3%;
+color: gray;
+font-size:25px;
+font-family: 'Oswald', sans-serif;
+}
+
+.title{
+font-size:40px;
+color: white;
+font-family: 'Oswald', sans-serif;
+}
+
+.picture{
+width:50%;
+}
+
+.img_info{
+width: 100%;
+height: 300px;
+}
+
+.colums{
+width: 100%;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+background-color: rgb(44, 44, 44);
+
+color: gray;
+}
+
+.colum_info{
+width: 15%;
+display: flex;
+flex-direction: column;
+margin-top: 5%;
+}
+
+.colum_img{
+height: 20%;
+}
+
+.colum_text{
+height:80%;
+font-size:20px ;
+}
+
+.colum_title{
+font-size: 25px;
+color: honeydew;
+}
+
+.content{
+display: flex;
+background-color: rgb(44, 44, 44);
+align-items: center;
+}
+
+.text_content{
+width:70% ;
+margin-left: 5%;
+margin-top: 5%;
+margin-right: 5%;
+}
+
+.stata{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 20%;
+margin-top: 5%;
+margin-right: 5%;
+border: 1px solid black;
+}
+
+.stata_inf{
+display: flex;
+width: 100%;
+}
+
+.inf{
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.stata_img{
+width: 30%;
+
+}
+
+.img_stata{
+width:70%;
+}
+
+.stata_text{
+width:70%  ;   
+margin-top: 2%; 
+color: gray;
+}
+
+.stata_numb{
+font-size: 25px;  
+color: firebrick; 
+margin-top: ;
+}
+
+.car{
+width: 1920px;
+height: 800px;
+}
+
+.final_title{
+font-size: 30px;
+color: white;
+}
+
+.final_text{
+color: gray;
+}
+
+.font{
+    font-family: 'Birthstone Bounce', cursive;    
+    font-size: 20px;
+    color: honeydew;
+}
+
+.final{
+width: 1900px;
+height:600px;
+background-image: url('../img/авто.jpg');
+}
+
+.video{
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+.table_main{
+    
+    width: 100%;
+    display: flex;   
+   justify-content: center;
+    
+    background-color: rgb(44, 44, 44);
+    
+    }
+    
+    .table_title{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 5%;
+    }
+    
+    .table{
+        margin-top: 5%;  
+    justify-content: center;
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    color: honeydew;
+    border-collapse: collapse; /* Убираем расстояние между яч. */
+    height:250px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background-color: rgb(75, 75, 75);
+    
+    }
+    
+    th {
+    border: 1px solid rgb(0, 0, 0); /* границы ячеек тела таблицы */
+    background-color: rgba(24, 24, 24, 0.727);
+     }
+    
+     td {
+    border: 1px solid rgb(0, 0, 0);
+     }
+
+     .f_img{
+    width:150px
+     }
+    
